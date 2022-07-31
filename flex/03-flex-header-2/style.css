@@ -8,7 +8,16 @@ body {
   font-family: Besley, serif;
 }
 
+.notifications{
+  height: 35px;
+}
+
 .header {
+  padding: 8px;
+  gap:16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   background: white;
   border-bottom: 1px solid #ddd;
   box-shadow: 0 0 8px rgba(0,0,0,.1);
@@ -44,5 +53,10 @@ a {
 }
 
 ul {
+  margin:0;
+  padding:0;
+  gap: 16px;
+  display: flex;
   list-style-type: none;
+  margin-right: auto;
 }
